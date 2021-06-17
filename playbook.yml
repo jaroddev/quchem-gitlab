@@ -10,6 +10,7 @@
         gitlab_repository_installation_script: https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh
         gitlab_external_url: http://gitlab.quchempedia.univ-angers.fr
         gitlab_admin_password: rootpass
+        gitlab_port: 80
   roles:
         - utils
         - user
